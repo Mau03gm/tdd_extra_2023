@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-circle-area',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './circle-area.component.html',
   styleUrl: './circle-area.component.css'
 })
