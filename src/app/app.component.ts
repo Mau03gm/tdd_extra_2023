@@ -18,9 +18,6 @@ export class AppComponent {
 }
 
 @NgModule({
-  declarations: [
-    CircleAreaComponent
-  ],
   imports: [
     BrowserModule,
     CommonModule,
