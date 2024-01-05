@@ -21,6 +21,10 @@ describe('CircleAreaComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+<<<<<<< HEAD
+
+=======
+>>>>>>> a417e51d44a22f0509d390bb2ccfe4840dad2a96
 describe('CircleAreaFunction', () => {
   let component: CircleAreaComponent;
   let fixture: ComponentFixture<CircleAreaComponent>;
@@ -69,9 +73,17 @@ describe('CircleAreaFunction', () => {
     expect(component.areaCalculada).toBeCloseTo(19.63, 2);
   });
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> a417e51d44a22f0509d390bb2ccfe4840dad2a96
   it('should not calculate area for NaN radio', () => {
     component.radio = NaN;
     component.calcularArea();
     expect(component.areaCalculada).toBe(0);
   });
+<<<<<<< HEAD
+
+=======
+>>>>>>> a417e51d44a22f0509d390bb2ccfe4840dad2a96
 });
