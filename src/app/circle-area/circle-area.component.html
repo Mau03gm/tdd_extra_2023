@@ -1,0 +1,12 @@
+<div>
+    <h2>Calculadora de Área de Círculo</h2>
+    <form (ngSubmit)="calcularArea()">
+      <label for="radio">Ingrese el radio del círculo:</label>
+      <input type="number" id="radio" name="radio" [(ngModel)]="radio" required>
+      <button type="submit">Calcular Área</button>
+    </form>
+
+    <p *ngIf="areaCalculada !== undefined">
+      El área del círculo con radio {{ radio }} es: {{ areaCalculada }}
+    </p>
+  </div>
